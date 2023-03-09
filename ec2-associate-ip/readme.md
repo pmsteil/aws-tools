@@ -1,0 +1,1 @@
+aws ec2 associate-address --output table --instance-id $instance_id --public-ip $serverip --allocation-id $allocation_id

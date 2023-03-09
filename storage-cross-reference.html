@@ -1,0 +1,142 @@
+<style>
+  body{ background-color: #444;}
+table, th, td {
+  border: 1px solid #333;
+  margin: 20px;
+  padding: 20px;
+  border-collapse: collapse;
+}
+</style>
+
+<h2>NOT Verified!</h2>
+
+<!--
+
+    gpt prompt:
+    aws: create a create a cross reference table showing each aws storage solution listed here: "Amazon Simple Storage Service (S3), Amazon Elastic Block Store (EBS, Amazon Elastic File System (EFS, Amazon Snowball, Amazon Glacier, AWS Storage Gateway, AWS Backup, Amazon FSx for Windows File Server, Amazon FSx for Lustre" ) and which any AWS services that can or do use them. format it into an html table with 2 columns
+ -->
+
+
+
+<table>
+    <tr>
+      <th>AWS Storage Solution</th>
+      <th>AWS Services that Use Them</th>
+    </tr>
+    <tr>
+      <td>Amazon Simple Storage Service (S3) (Amazon S3 IA, Glacier)</td>
+      <td>
+        <li>Amazon Elastic Compute Cloud (EC2)</li>
+         <li>Amazon CloudFront</li>
+         <li>AWS Lambda</li>
+         <li>AWS Elemental MediaStore</li>
+         <li>Amazon Relational Database Service (RDS)</li>
+         <li>Amazon EMR</li>
+         <li>Amazon Athena</li>
+         <li>Amazon Redshift</li>
+         <li>Amazon Transfer Family*</td></li>
+    </tr>
+    <tr>
+      <td>Amazon Elastic File System (EFS)</td>
+      <td><li>Amazon EC2</li>
+         <li>Amazon CloudFormation</li>
+         <li>Amazon Elastic Container Service (ECS)</li>
+         <li>Amazon Transfer Family*</td></li>
+    </tr>
+    <tr>
+      <td>Amazon FSx for Windows File Server</td>
+      <td><li>SMB*</li>
+            <li>Amazon Elastic Compute Cloud (EC2)</li>
+    </td>
+    </tr>
+    <tr>
+      <td>Amazon FSx for Lustre</td>
+      <td>Amazon EC2 and Amazon EBS</td>
+    </tr>
+    <tr>
+      <td>Amazon FSx for NetApp ONTAP</td>
+      <td>Amazon Elastic Compute Cloud (EC2)</td>
+    </tr>
+    <tr>
+      <td>Amazon FSx for OpenZFS</td>
+      <td>Amazon EC2 and Amazon EBS</td>
+    </tr>
+    <tr>
+      <td>Amazon Elastic Block Store (EBS)</td>
+      <td><li>Amazon EC2</li>
+         <li>Amazon EMR</li>
+         <li>Amazon Relational Database Service (RDS)</li>
+         <li>Amazon DynamoDB</li>
+         <li>Amazon ElastiCache</td></li>
+    </tr>
+    <tr>
+        <td>Amazon File Cache</td>
+        <td>
+            <li>Amazon EC2*</li>
+            <li>Amazon FSx for Windows File Server*</li>
+            <li>Amazon FSx for Lustre*</li>
+            <li>Amazon FSx for NetApp ONTAP*</li>
+            <li>Amazon FSx for OpenZFS*</li>
+            <li>Amazon S3*</li>
+            <li>On premise NFS*</li>
+    </tr>
+    <tr>
+        <td>Amazon Snow Family (Snowcone, Snowball, Snowmobile)</td>
+        <td><li>Amazon Elastic Compute Cloud (EC2)*</li>
+        <li>Amazon S3*</td></li>
+    </tr>
+    <tr>
+      <td>AWS Storage Gateway</td>
+      <td>
+         <li>Amazon S3</li>
+         <li>Amazon Elastic Compute Cloud (EC2)</td></li>
+    </tr>
+    <tr>
+      <td>AWS Backup</td>
+      <td>
+        <li>Amazon S3</li>
+         <li>Amazon EFS</li>
+         <li>Amazon EBS</li>
+         <li>Amazon DynamoDB</li>
+         <li>Amazon RDS</li>
+         <li>AWS Storage Gateway</td></li>
+    </tr>
+    <tr>
+        <td>Amazon DataSync*</td>
+        <td><li>Network File System (NFS) shares</li>
+            <li>Server Message Block (SMB) shares</li>
+            <li>Self-managed object storage</li>
+            <li>AWS Snowcone</li>
+            <li>Amazon S3 buckets</li>
+            <li>Amazon EFS file systems</li>
+            <li>Amazon FSx for Windows File Server file system</li>
+            <li>Supports VPC endpoints</li>
+    </tr>
+    <tr>
+        <td>AWS Elastic Disaster Recovery (DRS)</td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>AWS Backup*</td>
+        <td><li>Amazon S3</li>
+            <li>Amazon EBS</li>
+            <li>Amazon FSx</li>
+            <li>Amazon EFS</li>
+            <li>Amazon Storage Gateway</li>
+            <li>Amazon EC2</li>
+            <li>Amazon RDS</li>
+            <li>Amazon Aurora</li>
+            <li>Amazon DynamoDB</li>
+            <li>Amazon Neptune</li>
+            <li>Amazon DocumentDB</li>
+            <li>Amazon Timestream</li>
+            <li>Amazon Redshift</li>
+            <li>SAP HANA on Amazon EC2</li>
+            <li>AWS CloudFormation</li>
+            <li>VMWare on Premise and VMWare Cloud on AWS</LI>
+            <li>AWS Outposts</li>
+    </tr>
+  </table>
+
+  * verified...

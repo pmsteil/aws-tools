@@ -1,0 +1,22 @@
+{
+
+        "cart_id": {
+            "N": "2"
+        },
+        "customer_name": {
+            "S": "John Smith"
+        },
+        "customer_address": {
+            "M": {
+                "city": {
+                    "S": "Chico"
+                },
+                "address1": {
+                    "S": "333 Mulberry Lane"
+                },
+                "state": {
+                    "S": "TX"
+                }
+            }
+        }
+}
